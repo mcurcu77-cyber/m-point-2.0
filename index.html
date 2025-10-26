@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M POINT 2.0</title>
+    <style>
+        /* Reset di base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ff7f00;
+        }
+
+        nav {
+            background-color: #2a2a2a;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff7f00;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #ff7f00;
+            margin-bottom: 20px;
+        }
+
+        .services, .shop {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #1f1f1f;
+            padding: 20px;
+            border-radius: 15px;
+            width: 250px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #2a2a2a;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>M POINT 2.0</h1>
+        <p>Il tuo hub per grafica e servizi digitali</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Servizi</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contatti</a>
+    </nav>
+
+    <section id="home">
+        <h2>Benvenuti su M POINT 2.0</h2>
+        <p>La piattaforma definitiva per grafica, servizi digitali e community.</p>
+    </section>
+
+    <section id="services">
+        <h2>I nostri Servizi</h2>
+        <div class="services">
+            <div class="card">
+                <h3>Grafica Personalizzata</h3>
+                <p>Creazione di loghi, banner, e artwork professionali.</p>
+            </div>
+            <div class="card">
+                <h3>Gestione Social</h3>
+                <p>Aiutiamo a migliorare la tua presenza online in modo strategico.</p>
+            </div>
+            <div class="card">
+                <h3>Bot Discord</h3>
+                <p>Sviluppo e gestione di bot personalizzati per server Discord.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop">
+        <h2>Shop</h2>
+        <div class="shop">
+            <div class="card">
+                <h3>Pacchetto Grafico Base</h3>
+                <p>Logo + Banner a scelta.</p>
+            </div>
+            <div class="card">
+                <h3>Pacchetto Social</h3>
+                <p>Post grafici e gestione contenuti.</p>
+            </div>
+            <div class="card">
+                <h3>Pacchetto Discord</h3>
+                <p>Bot + Setup server completo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contattaci</h2>
+        <p>Per informazioni o ordini, scrivici a: <a href="mailto:info@mpoint.it" style="color:#ff7f00;">info@mpoint.it</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 M POINT 2.0 - Tutti i diritti riservati</p>
+    </footer>
+
+</body>
+</html>
